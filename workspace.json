@@ -2,8 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "anastasis": "libs/anastasis",
     "katerina": "libs/katerina",
+    "roxani": "libs/roxani",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }

@@ -1,10 +1,10 @@
 /* eslint-disable */
 export default {
-  displayName: 'anastasis',
+  displayName: 'roxani',
   preset: '../../jest.preset.js',
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/anastasis',
+  coverageDirectory: '../../coverage/libs/roxani',
 };

@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/anastasis/src",
+  "sourceRoot": "libs/roxani/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -8,14 +8,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/anastasis/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["libs/roxani/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/anastasis"],
+      "outputs": ["coverage/libs/roxani"],
       "options": {
-        "jestConfig": "libs/anastasis/jest.config.ts",
+        "jestConfig": "libs/roxani/jest.config.ts",
         "passWithNoTests": true
       }
     }
