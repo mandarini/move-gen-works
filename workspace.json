@@ -2,7 +2,6 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "roxani": "libs/roxani",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }
