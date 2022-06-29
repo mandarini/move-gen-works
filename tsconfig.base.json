@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@movegen/katerina": ["libs/katerina/src/index.ts"],
       "@movegen/roxani": ["libs/roxani/src/index.ts"]
     }
   },
