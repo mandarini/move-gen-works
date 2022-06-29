@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@movegen/anastasis": ["libs/anastasis/src/index.ts"],
+      "@movegen/katerina": ["libs/katerina/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
